@@ -17,14 +17,16 @@
   gap: 2rem;
 }
 
-.nav-link {
+/* FIXED */
+.nav-links {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
 }
 
-.nav-link:hover {
+/* FIXED */
+.nav-links:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -41,7 +43,13 @@
     gap: 1rem;
   }
 
-  .nav-link {
+  .nav-links {
     padding: 0.5rem;
   }
+}
+
+/* Active link styling */
+.nav-links.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ff0000;
 }
